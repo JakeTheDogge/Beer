@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBarM/NavBar';
+import Conversations from './components/Conversations/Conversations';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const convs = [
+    {
+      name: 'Antosha',
+      id: 1
+    },
+    {
+      name: 'Vasya',
+      id: 2
+    },
+    {
+      name: 'Mom',
+      id: 3
+    }
+  ]
+    return (
+    <>
+    <NavBar/>
+    <Conversations conversations={convs}/>
+    </>
   );
 }
 
