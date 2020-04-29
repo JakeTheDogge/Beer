@@ -1,0 +1,25 @@
+.conversation {
+    position: relative;
+    color:#F06543;
+    height: 7vh;
+    width: 95vw;
+    border: none;
+    border-radius: 51px;
+    background: #FBFBFB;
+    box-shadow:  29px 29px 59px #AAAAAA, 
+                 -29px -29px 59px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 3vw;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #313F39;
+    font-size: medium;
+    margin: 0;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%)
+}
+
