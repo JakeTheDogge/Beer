@@ -1,0 +1,27 @@
+.NavBarM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:30px;
+    box-shadow:  20px 0px 60px #b1b0b0;
+    color: #ececec;
+    height: 8vh;
+    border-bottom: solid 3px #CCA43B;
+}
+
+.writeButton{
+    background: url('../../img/pen-tool.svg') no-repeat;
+    width: 3vh;
+    height: 3vh;
+    border:none;
+    margin-right: 3vw;
+}
+
+.toProfile {
+    background: url('../../img/arrow-left.svg') no-repeat;
+    width: 3vh;
+    height: 3vh;
+    border:none;
+    margin-left: 3vw;
+}
