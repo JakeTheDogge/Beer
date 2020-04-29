@@ -6,8 +6,10 @@ export default function Conversations(props : any) {
     let converstions = props.conversations;
 
     return (
+        <>
         <div className='conversations'>
             {converstions.map((item: any) =>  <OneConversation {...item} key={item.id}/> ) }
         </div>
+        </>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './OneConversation.scss';
+import './OneConversation.css';
 
 export default function OneConversation(props: any) {
     const name = props.name

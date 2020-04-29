@@ -12,6 +12,7 @@
     margin-left: auto;
     padding-left: 3vw;
     margin-bottom: 15px;
+    z-index: -1;
 }
 
 p {
